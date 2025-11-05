@@ -1,17 +1,26 @@
-# Entropy Checker (React + Vite)
+# Entropy Checker
 
-A small React app to estimate password entropy and show a strength meter.
+A password security checker that evaluates password entropy, detects common vulnerabilities, estimates cracking times, suggests stronger passwords, and generates detailed reports to help users create and assess strong, secure passwords.
 
-Quick start (PowerShell):
+# To run :
 
 ```powershell
-cd 'c:\Users\kamat\OneDrive\Desktop\INS'
+git clone https://github.com/Amrutha-K-2004/Entropy-Checker.git
+cd Entropy-Checker
 npm install
 npm run dev
 ```
 
 Then open the local dev URL (usually http://localhost:5173).
 
-Notes:
-- This project uses a simple pool-based entropy estimate: it estimates character pool size (lower, upper, digits, symbols) and computes bits = length * log2(pool).
-- It's an estimate and not a replacement for password managers or NIST guidance. Use long passphrases for best security.
+# 🧠 Usage
+
+Enter your password in the input field.
+View real-time strength assessment including entropy and strength label.
+Use the following buttons:
+🔹 Check Entropy: Calculate and show detailed entropy.
+🔹 Suggest Stronger: Get a stronger password suggestion with added symbols.
+🔹 Dictionary Attack: Check for dictionary word vulnerabilities.
+🔹 Time to Crack: Estimate cracking time for various attack scenarios.
+🔹 Generate Report: Download a PDF summary of password analysis.
+🔹 Clear All: Reset all fields and results

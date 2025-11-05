@@ -1,0 +1,43 @@
+# Node / JavaScript
+node_modules/
+dist/
+.env
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Vite / build
+.vite/
+.idea/
+.vscode/
+.DS_Store
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# JetBrains
+*.iml
+
+# Optional: local secrets or generated files
+secret-*.json
+coverage/
+
+# Ignore generated PDF reports if any
+*.pdf
+
+# Lockfiles you may want to keep out of OneDrive sync
+*.lock
+
+# Allow checking in logs etc when needed
+logs/
+*.log
+
+# Editor backups
+*~
+
+# Optional: ignore local npm global bin if used
+.npm/
